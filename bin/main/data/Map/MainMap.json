@@ -1,0 +1,55 @@
+{
+  "music": "lost_in_the_meadows.wav",
+  "tiledMap": "niveau",
+  "spawnPosition": {
+    "posX":150,
+    "posY": 50
+  },
+  "items": [
+    {
+      "nom":"oeil2",
+      "ressourceItem": "oeil",
+      "posX":120,
+      "posY":120
+    }
+  ],
+  "characters": [
+    {
+      "nom": "Pedro",
+      "ressourceCharacter": "newrichard.png",
+      "ressourceMusic": "menu_text_types_out_01.wav",
+      "posX": 300,
+      "posY": 300,
+      "dialogues": [
+        [
+          "Salut, je suis Pedro. Va chercher l'oeil pour passer à la suite. Comment tu vas? Moi je vais très bien, et j'espère que ce jeu va vraiment bien marcher et que ce n'est pas une hype de plus de notre cher programmeur Richard, j'écris n'importe quoi j'ai besoin que ça soit un long texte avec des vrais mots pour tester le comportement et l'affichage du texte lorsqu'il est long hehe.",
+          "Vas-y je t'attends."
+        ],
+        [
+          "Super ! Tu as l'oeil !",
+          "Je suis fier de toi."
+        ]
+      ]
+    },
+    {
+      "nom": "Charles",
+      "ressourceCharacter": "newrichard.png",
+      "ressourceMusic": "menu_text_types_out_01.wav",
+      "posX": 50,
+      "posY": 320,
+      "dialogues": [
+        [
+          "The journey from this point will be long, and it will  be more difficult than anything you have undergone to this point. Yet, I know you will be all right, you are no longer alone."
+        ],
+        [
+          "Sale shlagos",
+          "Je suis à la ligne 2"
+        ],
+        [
+          "Issou",
+          "Je suis à la ligne 3"
+        ]
+      ]
+    }
+  ]
+}

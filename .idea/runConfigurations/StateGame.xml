@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="StateGame" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18 (Windows)" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <envs>
+      <env name="--illegal-access" value="warn" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="main.core.StateGame" />
+    <module name="Cream" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="main.core.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

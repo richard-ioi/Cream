@@ -1,0 +1,10 @@
+{
+  "music": "Spring_Village.wav",
+  "tiledMap": "nibeb",
+  "spawnPosition": {
+    "posX":150,
+    "posY": 50
+  },
+  "items": [],
+  "characters": []
+}

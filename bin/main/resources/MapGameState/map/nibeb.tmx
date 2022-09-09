@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="4">
+ <tileset firstgid="1" source="grass.tsx"/>
+ <tileset firstgid="19" source="collision.tsx"/>
+ <tileset firstgid="44" name="holek" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="holek.png" width="96" height="192"/>
+ </tileset>
+ <layer id="1" name="Calque de Tile 1" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3RuQ2AMBREwZ9xGvrvFrfgALwSM9LmK72lqtaBbcWb9r5jYOecm7+hRxY9suiRRY8semTRI4seWVrfNbB7zk0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgM89BK0SHECcAAA=
+  </data>
+ </layer>
+ <layer id="5" name="Calque 3" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OMQ6AIBQFQc4kIur9D8YLvZ3Jb2aS7bc1AAD+dqSezuoRtpGuNKtH2O70pLd6BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPiyF4+lOQJwAAA==
+  </data>
+ </layer>
+ <layer id="6" name="Calque 4" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVP7WULoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBt5RKnmQJwAAA==
+  </data>
+ </layer>
+ <layer id="7" name="Calque 5" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVP7WULoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBt5RKnmQJwAAA==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Calque d'objets 1" width="100" height="100">
+  <object id="2" name="lol" x="354" y="49" width="28" height="65"/>
+  <object id="3" name="go-map2" type="change-map" x="49" y="203" width="70" height="68">
+   <properties>
+    <property name="CharacterList" value="MainMap"/>
+    <property name="dest-map" value="MainMap"/>
+    <property name="dest-x" value="100"/>
+    <property name="dest-y" value="100"/>
+    <property name="song" value="lost_in_the_meadows.wav"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="collision" width="100" height="100" opacity="0.29">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Ruw2AQAxEQZfBJ4Dg6L9FSCjAwcEGM9JmDiy9o6qWxs5ipr15v035gpceWfTIokcWPbLokUWPLHpkGc/Wxq5/3gQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+NwN9N8wcECcAAA=
+  </data>
+ </layer>
+</map>

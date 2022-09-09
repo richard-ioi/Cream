@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="14">
+ <tileset firstgid="1" source="grass.tsx"/>
+ <tileset firstgid="19" source="collision.tsx"/>
+ <tileset firstgid="44" name="hole" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="hole.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="62" name="dirt2" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="dirt2.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="80" name="mountains" tilewidth="32" tileheight="32" tilecount="108" columns="12">
+  <image source="mountains.png" width="384" height="288"/>
+ </tileset>
+ <layer id="1" name="terrain" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UOwrAIBBAwe0N+d3/sGktBE0RXcIM2FiJj90SEWXwbMHXRlvoMUf932fosZr5yKXXoJ4ZPb5nPnLRI5fWfroa93rM0ZuJO/SYyb7KRY9c9Mhlf3GORW8EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/uUB/ddRqUCcAAA=
+  </data>
+ </layer>
+ <layer id="6" name="trou" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OwQ2AIBQFQWoSEbX/wnjhZgHmX2aSvW9rAAAA8HWkns7qEbaRrjSrR9ju9KS3egQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA3yziy5qPQJwAAA==
+  </data>
+ </layer>
+ <layer id="10" name="grotte" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TyQnAMAxFQReX1Un6byduIOgUJPAM/LvgodYgtoytwba06+azjx3BzrTr5qNHLXrUokctetTy1eNpemTwH7XoUUsfu4LdadcBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwD9eAPe210CcAAA=
+  </data>
+ </layer>
+ <layer id="11" name="escaliers" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OsQ4BURRF0flJ9PT09DQSppOgRo3/c8rJhER3i7dWsvvddfC/SZr+aFb41apDOqY+zUctCr9adU6XdE3LUavCr1bd0j090nrQPm0Kv1r1TK/0TttBp7Qr/AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBvPqx0NchAnAAA
+  </data>
+ </layer>
+ <objectgroup id="8" name="trigger" width="100" height="100">
+  <object id="1" x="245" y="308" width="1" height="1"/>
+  <object id="3" name="entree" type="teleport" x="244" y="309" width="60" height="58">
+   <properties>
+    <property name="dest-x" value="1369"/>
+    <property name="dest-y" value="213"/>
+    <property name="height" value="100"/>
+    <property name="width" value="100"/>
+   </properties>
+  </object>
+  <object id="8" name="stair" type="stairR" x="1299" y="66" width="76" height="96"/>
+  <object id="11" name="go-map-1" type="change-map" x="1472" y="127" width="31" height="45">
+   <properties>
+    <property name="CharacterList" value="nibeb"/>
+    <property name="dest-map" value="nibeb"/>
+    <property name="dest-x" value="100"/>
+    <property name="dest-y" value="50"/>
+    <property name="song" value="Spring_Village.wav"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="collision" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Y0QqCQBAF0P0HSUofkqj//8VW8MmkkN2Gzc6BYV4GdvCiC3YppW5H8V17nnFkHtdc51zT0rdqCtwnSqt5jEsflnNPGzND3DphfiGPOYs+vb4fR/x+tp7HrF+d3a36kbSexy1t3x2zKXCfKK3n8Y77I4486s6Wkkfd2VLyqDtb6p7r8qEegftEaTWPf7Xn35U8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBqeophBiECcAAA=
+  </data>
+ </layer>
+</map>
