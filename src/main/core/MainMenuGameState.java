@@ -1,21 +1,23 @@
 package main.core;
 
-import org.newdawn.slick.*;
+import org.newdawn.slick.SlickException;
+import org.newdawn.slick.Image;
+import org.newdawn.slick.Color;
+import org.newdawn.slick.GameContainer;
+import org.newdawn.slick.Graphics;
 import org.newdawn.slick.geom.RoundedRectangle;
 import org.newdawn.slick.state.BasicGameState;
 import org.newdawn.slick.state.StateBasedGame;
 
-class MainScreenGameState extends BasicGameState {
+class MainMenuGameState extends BasicGameState {
 
     public static final int ID = 1;
-    //private Image background;
     private StateBasedGame game;
     private int aCompteur;
 
     @Override
-    public void init(GameContainer container, StateBasedGame game) throws SlickException {
+    public void init(GameContainer container, StateBasedGame game) {
         this.game = game;
-        //this.background = new Image("src/main/resources/background/black.png");
         this.aCompteur=0;
 
     }
@@ -29,8 +31,7 @@ class MainScreenGameState extends BasicGameState {
         if (this.aCompteur<container.getHeight()/7) {
             this.aCompteur++;
         }
-        //background.draw(0, 0, container.getWidth(), container.getHeight());
-        pGraphics.drawImage(new Image("src/main/resources/MainScreenGameState/background/banniere.png"),container.getWidth()/8,this.aCompteur);
+        pGraphics.drawImage(new Image("src/main/resources/MainMenuGameState/background/banniere.png"),container.getWidth()/8,this.aCompteur);
         pGraphics.setColor(new Color(255, 255, 255, .9f));
         RoundedRectangle vDialogueBox=new RoundedRectangle((container.getWidth()/2)-130, (container.getHeight()/2)+150, 250, 120, 15);
         pGraphics.draw(vDialogueBox);
@@ -44,7 +45,7 @@ class MainScreenGameState extends BasicGameState {
      * Passer à l’écran de jeu à l'appui de n'importe quel touche.
      */
     @Override
-    public void update(GameContainer container, StateBasedGame game, int delta) throws SlickException {
+    public void update(GameContainer container, StateBasedGame game, int delta) {
     }
 
     @Override

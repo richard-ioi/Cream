@@ -32,7 +32,7 @@ class StateGame extends StateBasedGame implements KeyListener {
      */
     @Override
     public void initStatesList(GameContainer container){
-        addState(new MainScreenGameState());
+        addState(new MainMenuGameState());
         addState(new MapGameState("MainMap"));
         this.aContainer=container;
     }
