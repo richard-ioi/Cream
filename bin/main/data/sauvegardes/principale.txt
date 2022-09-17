@@ -1,4 +1,0 @@
-300//250//position
-3//direction
-test//vNextScenario
-oeil//oeil3

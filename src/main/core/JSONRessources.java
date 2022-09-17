@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class JSONRessources {
     public static JSONObject openJsonFile(String pFileName) throws FileNotFoundException {
         Scanner scan = new Scanner(new File(pFileName));
-        String str = new String();
+        String str = "";
         while (scan.hasNext())
             str += scan.nextLine();
         scan.close();
