@@ -3,6 +3,10 @@
 
 Cream is a Java-powered RPG game project axed on performance, using OOP practices, strongly inspired by Earthbound game series.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/59491347/228468656-fb503f90-9efc-4e78-8971-a815404f066e.png">
+</p>
+
 **Author** : Richard Fouquoire
 - https://www.linkedin.com/in/richard-fouquoire
 
